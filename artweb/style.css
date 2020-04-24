@@ -1,0 +1,76 @@
+body {
+  background-color: ghostwhite;
+}
+.header {color: black; font-family: 'Rajdhani', sans-serif; border-radius: 25px; font-size: 2.5em; padding: 40px; text-align: center; background: lightsteelblue; text-shadow: .05em .05em .1em gray;}
+
+img {
+  border: 5px solid gray
+}
+.navbar {
+  overflow: hidden;
+  background-color: lightgray;
+  position: sticky;
+  border-radius: 25px;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: 'Economica', sans-serif;
+  text-shadow: .05em .05em .1em gray;
+  text-decoration: underline;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: gray;
+  color: black;
+  font-family: 'Economica', sans-serif;
+  text-shadow: .05em .05em .1em gray;
+  text-decoration: underline;
+}
+
+.navbar a.active {
+  background-color: lightslategrey;
+  color: white;
+  font-family: 'Economica', sans-serif;
+  text-shadow: .05em .05em .1em gray;
+  text-decoration: underline;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.content {
+  font-family: 'Economica', sans-serif;
+  text-shadow: .05em .05em .1em lightgray;
+  color: lightslategray;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center
+}
+
+.footer {
+  padding: .2px;
+  text-align: center;
+  background: lightsteelblue;
+  font-family: 'Economica', sans-serif;
+  font-size: 1em;
+  text-shadow: .05em .05em .1em gray;
+}
